@@ -1,0 +1,27 @@
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled code
+*.pyo
+*.pyd
+
+# Local settings files
+local_settings.py
+
+# Log files
+*.log
+
+# Compiled frontend assets
+/static/
+/media/
