@@ -19,6 +19,7 @@ from django.urls import path, include  # Import include for including app-level 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('journal.urls')),  # Include app-level URLs from 'journal' app
+    path('api/', include('journal.urls')), 
+    path('', include('journal.urls')), # Include app-level URLs from 'journal' app
     # ... other project-wide URL patterns if needed
 ]
